@@ -1,0 +1,72 @@
+var _g, _defs;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgChatllatIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 49,
+    height: 49,
+    viewBox: "0 0 49 49",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_464_6582)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M48.61 36.5565C45.7508 43.4306 40.9996 47.7593 33.9729 48.3913C27.6566 48.9565 21.168 48.9951 14.8799 48.2263C6.08772 47.1485 0.0176256 39.3686 0.0105919 30.4864C0.00707501 26.449 0.00707501 22.4116 4.12982e-05 18.3778C-0.0210598 8.26678 8.04661 0.20958 18.1857 0.213091C22.8737 0.213091 27.5616 0.177983 32.2496 0.223623C39.2833 0.286817 46.1799 5.35987 48.4694 12.3147C47.773 12.3147 47.1716 12.3147 46.5667 12.3147C37.6585 12.3147 28.7503 12.255 19.8457 12.3638C18.1576 12.3849 16.3394 12.7886 14.8341 13.5259C12.9139 14.4668 12.1895 16.4328 12.1789 18.5463C12.1613 22.5802 12.091 26.621 12.2457 30.6479C12.3794 34.0954 14.595 36.2335 18.0697 36.4547C19.6058 36.5527 21.1504 36.5134 22.7889 36.4909C23.5873 36.4799 24.2347 37.1266 24.2347 37.9251C24.2347 41.412 24.2347 44.7704 24.2347 48.1315C24.407 48.2333 24.5794 48.3386 24.7482 48.4404C27.2416 45.853 29.9426 43.4306 32.1758 40.636C34.8345 37.3043 37.6994 36.3905 42.1883 36.5144C44.533 36.579 46.2678 36.5565 48.61 36.5565Z",
+    fill: "url(#paint0_linear_464_6582)"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 23.3254,
+    cy: 24.5973,
+    r: 5.23356,
+    fill: "#F9D441",
+    fillOpacity: 0.3
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 28.6476,
+    cy: 24.5973,
+    r: 5.23356,
+    fill: "#F9D441",
+    fillOpacity: 0.6
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 35.3898,
+    cy: 24.5973,
+    r: 5.23356,
+    fill: "#F9D441"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_464_6582",
+    x1: 17.2086,
+    y1: -2.28457,
+    x2: 20.3692,
+    y2: 47.0549,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0711602,
+    stopColor: "#FF99C0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.371996,
+    stopColor: "#9981C2"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.686704,
+    stopColor: "#7F5EB8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#6D9985"
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_464_6582"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 48.61,
+    height: 48.61,
+    fill: "white",
+    transform: "translate(0 0.200195)"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgChatllatIcon);
+export default __webpack_public_path__ + "static/media/chatllat-icon.918840858829ce2b708193dc1f334a6c.svg";
+export { ForwardRef as ReactComponent };

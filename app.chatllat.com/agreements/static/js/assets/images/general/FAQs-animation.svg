@@ -1,0 +1,912 @@
+var _path, _path2, _path3, _path4, _path5, _path6, _path7, _path8, _path9, _path0, _path1, _path10, _path11, _path12, _path13, _path14, _path15, _path16, _path17, _path18, _path19, _path20, _path21, _path22, _path23, _path24, _path25, _path26, _path27, _path28, _path29, _path30, _path31, _path32, _path33, _path34, _path35, _path36, _path37, _path38, _path39, _path40, _path41, _path42, _path43, _path44, _path45, _path46, _path47, _path48, _path49, _path50, _path51, _path52, _defs;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgFaQsAnimation(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 423,
+    height: 462,
+    viewBox: "0 0 423 462",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M222.907 386.703C218.54 386.703 214.371 385.824 211.26 384.027L75.2088 305.477C72.1652 303.72 70.4883 301.278 70.4883 298.603C70.4883 295.386 72.9022 292.147 77.114 289.716L209.35 213.369C217.262 208.801 229.28 208.307 236.139 212.269L372.19 290.818C375.234 292.575 376.91 295.016 376.911 297.691C376.911 300.908 374.497 304.148 370.285 306.579L238.049 382.925C233.725 385.425 228.173 386.703 222.907 386.703ZM224.491 210.096C219.318 210.096 213.86 211.356 209.605 213.812L77.3684 290.159C73.3209 292.496 70.9994 295.574 70.9994 298.604C70.9994 301.091 72.5851 303.376 75.4632 305.038L211.514 383.587C218.237 387.468 230.023 386.974 237.796 382.486L370.032 306.14C374.079 303.803 376.401 300.724 376.401 297.694C376.401 295.207 374.815 292.923 371.937 291.261L235.886 212.712C232.845 210.956 228.765 210.096 224.491 210.096Z",
+    fill: "#6EE8FC"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.3,
+    d: "M189.021 287.393C251.144 287.393 301.504 258.317 301.504 222.451C301.504 186.585 251.144 157.51 189.021 157.51C126.899 157.51 76.5391 186.585 76.5391 222.451C76.5391 258.317 126.899 287.393 189.021 287.393Z",
+    fill: "url(#paint0_radial_503_10076)"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.3,
+    d: "M310.518 405.534C372.64 405.534 423 376.458 423 340.591C423 304.724 372.64 275.648 310.518 275.648C248.395 275.648 198.035 304.724 198.035 340.591C198.035 376.458 248.395 405.534 310.518 405.534Z",
+    fill: "url(#paint1_radial_503_10076)",
+    fillOpacity: 0.5
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.3,
+    d: "M86.4851 331.373C134.249 331.373 172.97 309.018 172.97 281.441C172.97 253.864 134.249 231.509 86.4851 231.509C38.7207 231.509 0 253.864 0 281.441C0 309.018 38.7207 331.373 86.4851 331.373Z",
+    fill: "url(#paint2_radial_503_10076)",
+    fillOpacity: 0.5
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M190.022 235.052C195.693 235.052 200.29 230.455 200.29 224.784C200.29 219.113 195.693 214.516 190.022 214.516C184.351 214.516 179.754 219.113 179.754 224.784C179.754 230.455 184.351 235.052 190.022 235.052Z",
+    fill: "url(#paint3_radial_503_10076)"
+  })), _path6 || (_path6 = /*#__PURE__*/React.createElement("path", {
+    d: "M192.95 224.785C192.95 226.401 191.639 227.712 190.023 227.712C188.406 227.712 187.096 226.401 187.096 224.785C187.096 223.168 188.406 221.857 190.023 221.857C191.639 221.857 192.95 223.168 192.95 224.785Z",
+    fill: "#6EE8FC"
+  })), _path7 || (_path7 = /*#__PURE__*/React.createElement("path", {
+    d: "M86.483 294.949C92.154 294.949 96.7512 290.351 96.7512 284.68C96.7512 279.009 92.154 274.412 86.483 274.412C80.8121 274.412 76.2148 279.009 76.2148 284.68C76.2148 290.351 80.8121 294.949 86.483 294.949Z",
+    fill: "url(#paint4_radial_503_10076)"
+  })), _path8 || (_path8 = /*#__PURE__*/React.createElement("path", {
+    d: "M89.4111 284.68C89.4111 286.297 88.1004 287.607 86.4839 287.607C84.8674 287.607 83.5566 286.297 83.5566 284.68C83.5566 283.064 84.8674 281.753 86.4839 281.753C88.1004 281.753 89.4111 283.064 89.4111 284.68Z",
+    fill: "#6EE8FC"
+  })), _path9 || (_path9 = /*#__PURE__*/React.createElement("path", {
+    d: "M311.219 350.657C316.89 350.657 321.488 346.059 321.488 340.388C321.488 334.717 316.89 330.12 311.219 330.12C305.548 330.12 300.951 334.717 300.951 340.388C300.951 346.059 305.548 350.657 311.219 350.657Z",
+    fill: "url(#paint5_radial_503_10076)"
+  })), _path0 || (_path0 = /*#__PURE__*/React.createElement("path", {
+    d: "M311.22 343.315C312.837 343.315 314.147 342.005 314.147 340.388C314.147 338.772 312.837 337.461 311.22 337.461C309.604 337.461 308.293 338.772 308.293 340.388C308.293 342.005 309.604 343.315 311.22 343.315Z",
+    fill: "#6EE8FC"
+  })), _path1 || (_path1 = /*#__PURE__*/React.createElement("path", {
+    d: "M330.253 339.44C335.924 339.44 340.521 334.843 340.521 329.172C340.521 323.501 335.924 318.903 330.253 318.903C324.582 318.903 319.984 323.501 319.984 329.172C319.984 334.843 324.582 339.44 330.253 339.44Z",
+    fill: "url(#paint6_radial_503_10076)"
+  })), _path10 || (_path10 = /*#__PURE__*/React.createElement("path", {
+    d: "M333.181 329.171C333.181 330.788 331.87 332.099 330.253 332.099C328.637 332.099 327.326 330.788 327.326 329.171C327.326 327.555 328.637 326.244 330.253 326.244C331.87 326.244 333.181 327.555 333.181 329.171Z",
+    fill: "#6EE8FC"
+  })), _path11 || (_path11 = /*#__PURE__*/React.createElement("path", {
+    d: "M349.292 328.393C354.963 328.393 359.56 323.796 359.56 318.125C359.56 312.454 354.963 307.856 349.292 307.856C343.621 307.856 339.023 312.454 339.023 318.125C339.023 323.796 343.621 328.393 349.292 328.393Z",
+    fill: "url(#paint7_radial_503_10076)"
+  })), _path12 || (_path12 = /*#__PURE__*/React.createElement("path", {
+    d: "M352.218 318.124C352.218 319.74 350.907 321.051 349.291 321.051C347.674 321.051 346.363 319.74 346.363 318.124C346.363 316.507 347.674 315.196 349.291 315.196C350.908 315.196 352.218 316.507 352.218 318.124Z",
+    fill: "#6EE8FC"
+  })), _path13 || (_path13 = /*#__PURE__*/React.createElement("path", {
+    d: "M210.739 361.435L113.773 305.452C106.405 301.198 107.329 293.768 115.837 288.856L208.672 235.258C217.18 230.346 230.049 229.814 237.417 234.067L334.383 290.05C341.751 294.304 340.827 301.734 332.319 306.647L239.484 360.244C230.976 365.155 218.107 365.689 210.739 361.435Z",
+    fill: "#37294F"
+  })), _path14 || (_path14 = /*#__PURE__*/React.createElement("path", {
+    d: "M351.718 240.465V220.417H300.001L238.855 185.114C230.693 180.403 216.439 180.994 207.016 186.434L148.157 220.417H96.4004V241.6H96.4426C96.2099 244.789 97.9884 247.867 101.91 250.13L209.307 312.135C217.468 316.846 231.722 316.255 241.145 310.815L343.966 251.451C349.401 248.314 352.024 244.248 351.718 240.465Z",
+    fill: "#312A91"
+  })), _path15 || (_path15 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M351.718 240.465V220.417H300.001L238.855 185.114C230.693 180.403 216.439 180.994 207.016 186.434L148.157 220.417H96.4004V241.6H96.4426C96.2099 244.789 97.9884 247.867 101.91 250.13L209.307 312.135C217.468 316.846 231.722 316.255 241.145 310.815L343.966 251.451C349.401 248.314 352.024 244.248 351.718 240.465Z",
+    fill: "url(#paint8_linear_503_10076)"
+  })), _path16 || (_path16 = /*#__PURE__*/React.createElement("path", {
+    d: "M238.854 185.114C234.931 182.848 229.596 181.821 224.07 181.957V315.292C230.045 315.148 236.246 313.644 241.143 310.816L343.964 251.452C349.4 248.313 352.023 244.249 351.717 240.465V220.416H300L238.854 185.114Z",
+    fill: "url(#paint9_linear_503_10076)"
+  })), _path17 || (_path17 = /*#__PURE__*/React.createElement("path", {
+    d: "M209.305 290.952L101.908 228.945C93.7466 224.234 94.771 216.004 104.194 210.564L207.015 151.2C216.438 145.759 230.692 145.168 238.853 149.88L346.25 211.886C354.411 216.598 353.387 224.827 343.964 230.268L241.143 289.632C231.72 295.072 217.466 295.663 209.305 290.952Z",
+    fill: "#312A91"
+  })), _path18 || (_path18 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M209.305 290.952L101.908 228.945C93.7466 224.234 94.771 216.004 104.194 210.564L207.015 151.2C216.438 145.759 230.692 145.168 238.853 149.88L346.25 211.886C354.411 216.598 353.387 224.827 343.964 230.268L241.143 289.632C231.72 295.072 217.466 295.663 209.305 290.952Z",
+    fill: "url(#paint10_linear_503_10076)"
+  })), _path19 || (_path19 = /*#__PURE__*/React.createElement("path", {
+    d: "M212.178 277.247L125.648 227.289C119.073 223.492 119.897 216.862 127.49 212.479L210.334 164.649C217.926 160.267 229.411 159.79 235.986 163.586L322.517 213.545C329.092 217.341 328.267 223.971 320.674 228.354L237.83 276.184C230.237 280.567 218.752 281.043 212.178 277.247Z",
+    fill: "#5CFFF3"
+  })), _path20 || (_path20 = /*#__PURE__*/React.createElement("path", {
+    d: "M127.488 218.959L210.332 171.129C217.924 166.746 229.409 166.269 235.984 170.066L322.514 220.024C324.138 220.962 325.306 222.073 326.037 223.279C327.946 219.772 326.845 216.044 322.514 213.543L235.984 163.585C229.408 159.789 217.924 160.265 210.332 164.648L127.488 212.478C121.771 215.779 119.895 220.354 122.124 224.034C123.113 222.215 124.895 220.455 127.488 218.959Z",
+    fill: "#42E8E0"
+  })), _path21 || (_path21 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M212.912 290.951L105.515 228.945C97.3541 224.234 95.4045 217.314 107.801 210.564L210.622 151.199C215.256 148.524 221.058 147.028 226.73 146.753C219.985 146.447 212.643 147.952 207.016 151.199L104.195 210.564C94.7725 216.004 93.7492 224.234 101.909 228.945L209.306 290.951C213.453 293.346 219.175 294.363 225.036 294.078C220.483 293.873 216.201 292.85 212.912 290.951Z",
+    fill: "url(#paint11_linear_503_10076)"
+  })), _path22 || (_path22 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M343.965 239.223L241.143 298.587C231.721 304.028 217.466 304.619 209.305 299.907L101.908 237.902C97.9876 235.639 96.2091 232.561 96.4406 229.373H96.3984V233.762H96.4406C96.2079 236.951 97.9864 240.029 101.908 242.292L209.305 304.297C217.466 309.008 231.721 308.418 241.143 302.977L343.965 243.613C349.4 240.475 352.023 236.41 351.717 232.626V228.236C352.023 232.019 349.4 236.085 343.965 239.223Z",
+    fill: "url(#paint12_linear_503_10076)"
+  })), _path23 || (_path23 = /*#__PURE__*/React.createElement("path", {
+    d: "M325.319 233.376C326.49 234.052 326.49 235.15 325.319 235.826C324.147 236.503 322.247 236.503 321.074 235.826C319.902 235.15 319.902 234.052 321.074 233.376C322.246 232.699 324.146 232.698 325.319 233.376Z",
+    fill: "#FCCC6B"
+  })), _path24 || (_path24 = /*#__PURE__*/React.createElement("path", {
+    d: "M331.93 229.559C333.102 230.236 333.102 231.333 331.93 232.01C330.759 232.686 328.858 232.686 327.685 232.01C326.514 231.333 326.514 230.236 327.685 229.559C328.858 228.883 330.759 228.883 331.93 229.559Z",
+    fill: "#FCCC6B"
+  })), _path25 || (_path25 = /*#__PURE__*/React.createElement("path", {
+    d: "M338.538 225.744C339.709 226.42 339.709 227.518 338.538 228.194C337.366 228.871 335.465 228.871 334.293 228.194C333.121 227.518 333.121 226.42 334.293 225.744C335.464 225.067 337.366 225.067 338.538 225.744Z",
+    fill: "#FCCC6B"
+  })), _path26 || (_path26 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M214.742 265.147L146.867 225.959C141.709 222.981 142.356 217.779 148.311 214.341L213.294 176.823C219.249 173.384 228.259 173.011 233.417 175.989L301.292 215.177C306.45 218.154 305.803 223.356 299.848 226.795L234.864 264.313C228.908 267.751 219.9 268.125 214.742 265.147Z",
+    fill: "#0B0244"
+  })), _path27 || (_path27 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M351.718 220.416C351.747 220.035 351.749 219.657 351.718 219.281V163.282L262.752 163.678L238.855 149.88C230.693 145.168 216.439 145.759 207.016 151.2L184.804 164.024L96.4004 164.418V220.417H96.4426C96.2099 223.605 97.9884 226.683 101.909 228.947L209.306 290.952C217.467 295.663 231.721 295.072 241.144 289.632L343.965 230.268C348.86 227.442 351.467 223.864 351.718 220.416Z",
+    fill: "#5CFFF3"
+  })), _path28 || (_path28 = /*#__PURE__*/React.createElement("path", {
+    d: "M351.718 163.283V143.234H300.001L238.855 107.932C230.693 103.22 216.439 103.811 207.016 109.252L148.157 143.234H96.4004V164.418H96.4426C96.2099 167.606 97.9884 170.684 101.91 172.947L209.307 234.953C217.468 239.665 231.722 239.074 241.145 233.634L343.966 174.269C349.401 171.131 352.024 167.067 351.718 163.283Z",
+    fill: "#312A91"
+  })), _path29 || (_path29 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M351.718 163.283V143.234H300.001L238.855 107.932C230.693 103.22 216.439 103.811 207.016 109.252L148.157 143.234H96.4004V164.418H96.4426C96.2099 167.606 97.9884 170.684 101.91 172.947L209.307 234.953C217.468 239.665 231.722 239.074 241.145 233.634L343.966 174.269C349.401 171.131 352.024 167.067 351.718 163.283Z",
+    fill: "url(#paint13_linear_503_10076)"
+  })), _path30 || (_path30 = /*#__PURE__*/React.createElement("path", {
+    d: "M238.854 107.931C234.931 105.666 229.596 104.639 224.07 104.775V238.109C230.045 237.966 236.246 236.461 241.143 233.633L343.964 174.269C349.4 171.131 352.023 167.066 351.717 163.282V143.234H300L238.854 107.931Z",
+    fill: "url(#paint14_linear_503_10076)"
+  })), _path31 || (_path31 = /*#__PURE__*/React.createElement("path", {
+    d: "M209.305 213.769L101.908 151.764C93.7466 147.052 94.771 138.823 104.194 133.382L207.015 74.0181C216.438 68.5777 230.692 67.9868 238.853 72.6982L346.25 134.704C354.411 139.416 353.387 147.646 343.964 153.086L241.143 212.45C231.72 217.889 217.466 218.48 209.305 213.769Z",
+    fill: "#312A91"
+  })), _path32 || (_path32 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M209.305 213.769L101.908 151.764C93.7466 147.052 94.771 138.823 104.194 133.382L207.015 74.0181C216.438 68.5777 230.692 67.9868 238.853 72.6982L346.25 134.704C354.411 139.416 353.387 147.646 343.964 153.086L241.143 212.45C231.72 217.889 217.466 218.48 209.305 213.769Z",
+    fill: "url(#paint15_linear_503_10076)"
+  })), _path33 || (_path33 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M212.912 213.769L105.515 151.762C97.3541 147.051 95.4045 140.131 107.801 133.381L210.622 74.0168C215.256 71.3416 221.058 69.8461 226.73 69.57C219.985 69.2643 212.643 70.769 207.016 74.0168L104.195 133.381C94.7725 138.821 93.7492 147.051 101.909 151.762L209.306 213.769C213.453 216.163 219.175 217.181 225.036 216.897C220.483 216.69 216.201 215.668 212.912 213.769Z",
+    fill: "url(#paint16_linear_503_10076)"
+  })), _path34 || (_path34 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M343.965 162.04L241.143 221.404C231.721 226.844 217.466 227.435 209.305 222.724L101.908 160.717C97.9876 158.454 96.2091 155.376 96.4406 152.188H96.3984V156.578H96.4406C96.2079 159.766 97.9864 162.844 101.908 165.107L209.305 227.113C217.466 231.825 231.721 231.234 241.143 225.794L343.965 166.429C349.4 163.291 352.023 159.226 351.717 155.442V151.053C352.023 154.837 349.4 158.901 343.965 162.04Z",
+    fill: "url(#paint17_linear_503_10076)"
+  })), _path35 || (_path35 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.2,
+    d: "M215.54 147.723C217.771 149.011 217.771 151.098 215.54 152.386C213.31 153.674 209.694 153.674 207.464 152.386C205.233 151.098 205.233 149.011 207.464 147.723C209.694 146.435 213.31 146.435 215.54 147.723Z",
+    fill: "#5CFFF3"
+  })), _path36 || (_path36 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.6,
+    d: "M228.119 140.46C230.349 141.748 230.349 143.836 228.119 145.124C225.888 146.412 222.272 146.412 220.042 145.124C217.812 143.836 217.812 141.748 220.042 140.46C222.272 139.172 225.888 139.172 228.119 140.46Z",
+    fill: "#5CFFF3"
+  })), _path37 || (_path37 = /*#__PURE__*/React.createElement("path", {
+    d: "M240.701 133.198C242.931 134.486 242.931 136.574 240.701 137.862C238.47 139.15 234.854 139.15 232.624 137.862C230.394 136.574 230.394 134.486 232.624 133.198C234.854 131.91 238.47 131.91 240.701 133.198Z",
+    fill: "#5CFFF3"
+  })), _path38 || (_path38 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M223.376 198.532C219.395 198.532 215.59 197.728 212.751 196.089L133.342 150.243C130.454 148.574 128.862 146.227 128.863 143.636C128.863 140.569 131.113 137.51 135.033 135.247L211.059 91.352C218.238 87.2098 229.163 86.7706 235.409 90.3766L314.818 136.224C317.706 137.891 319.297 140.237 319.297 142.829C319.297 145.896 317.048 148.955 313.128 151.218L237.1 195.113C233.186 197.374 228.154 198.532 223.376 198.532ZM213.558 194.685C219.359 198.036 229.556 197.598 236.291 193.71L312.318 149.816C315.723 147.849 317.677 145.303 317.676 142.83C317.676 140.842 316.373 138.995 314.008 137.628L234.599 91.7809C228.798 88.4305 218.602 88.8697 211.867 92.7563L135.84 136.651C132.435 138.617 130.482 141.162 130.482 143.636C130.481 145.625 131.785 147.473 134.151 148.84L213.558 194.685Z",
+    fill: "#0B0244"
+  })), _path39 || (_path39 = /*#__PURE__*/React.createElement("path", {
+    d: "M222.908 229.795C218.54 229.795 214.371 228.914 211.26 227.117L75.2088 148.568C72.1652 146.812 70.4883 144.369 70.4883 141.694C70.4883 138.477 72.9022 135.238 77.114 132.807L209.35 56.4603C217.262 51.8915 229.28 51.3987 236.139 55.3606L372.19 133.909C375.234 135.666 376.911 138.109 376.911 140.784C376.91 144.001 374.496 147.241 370.285 149.67L238.049 226.017C233.725 228.515 228.173 229.793 222.908 229.795ZM224.491 53.1863C219.318 53.1863 213.86 54.4457 209.605 56.9018L77.3684 133.249C73.3209 135.586 70.9994 138.664 70.9994 141.694C70.9994 144.181 72.5851 146.466 75.4632 148.128L211.514 226.677C218.237 230.558 230.025 230.063 237.796 225.577L370.032 149.23C374.079 146.893 376.401 143.815 376.401 140.785C376.401 138.298 374.815 136.013 371.937 134.351L235.886 55.8021C232.845 54.0464 228.765 53.1863 224.491 53.1863Z",
+    fill: "#6EE8FC"
+  })), _path40 || (_path40 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.3,
+    d: "M189.021 130.485C251.144 130.485 301.504 101.409 301.504 65.5422C301.504 29.6754 251.144 0.599609 189.021 0.599609C126.899 0.599609 76.5391 29.6754 76.5391 65.5422C76.5391 101.409 126.899 130.485 189.021 130.485Z",
+    fill: "url(#paint18_radial_503_10076)",
+    fillOpacity: 0.5
+  })), _path41 || (_path41 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.3,
+    d: "M310.518 248.623C372.64 248.623 423 219.548 423 183.681C423 147.814 372.64 118.738 310.518 118.738C248.395 118.738 198.035 147.814 198.035 183.681C198.035 219.548 248.395 248.623 310.518 248.623Z",
+    fill: "url(#paint19_radial_503_10076)",
+    fillOpacity: 0.5
+  })), _path42 || (_path42 = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.3,
+    d: "M86.4851 174.462C134.249 174.462 172.97 152.107 172.97 124.53C172.97 96.953 134.249 74.5977 86.4851 74.5977C38.7207 74.5977 0 96.953 0 124.53C0 152.107 38.7207 174.462 86.4851 174.462Z",
+    fill: "url(#paint20_radial_503_10076)",
+    fillOpacity: 0.5
+  })), _path43 || (_path43 = /*#__PURE__*/React.createElement("path", {
+    d: "M190.022 78.1438C195.693 78.1438 200.29 73.5466 200.29 67.8756C200.29 62.2047 195.693 57.6074 190.022 57.6074C184.351 57.6074 179.754 62.2047 179.754 67.8756C179.754 73.5466 184.351 78.1438 190.022 78.1438Z",
+    fill: "url(#paint21_radial_503_10076)"
+  })), _path44 || (_path44 = /*#__PURE__*/React.createElement("path", {
+    d: "M192.95 67.8755C192.95 69.492 191.639 70.8027 190.023 70.8027C188.406 70.8027 187.096 69.492 187.096 67.8755C187.096 66.259 188.406 64.9482 190.023 64.9482C191.639 64.9471 192.95 66.2579 192.95 67.8755Z",
+    fill: "#6EE8FC"
+  })), _path45 || (_path45 = /*#__PURE__*/React.createElement("path", {
+    d: "M86.483 138.039C92.154 138.039 96.7512 133.442 96.7512 127.771C96.7512 122.1 92.154 117.503 86.483 117.503C80.8121 117.503 76.2148 122.1 76.2148 127.771C76.2148 133.442 80.8121 138.039 86.483 138.039Z",
+    fill: "url(#paint22_radial_503_10076)"
+  })), _path46 || (_path46 = /*#__PURE__*/React.createElement("path", {
+    d: "M86.4839 130.699C88.1006 130.699 89.4111 129.389 89.4111 127.772C89.4111 126.155 88.1006 124.845 86.4839 124.845C84.8672 124.845 83.5566 126.155 83.5566 127.772C83.5566 129.389 84.8672 130.699 86.4839 130.699Z",
+    fill: "#6EE8FC"
+  })), _path47 || (_path47 = /*#__PURE__*/React.createElement("path", {
+    d: "M311.219 193.748C316.89 193.748 321.488 189.151 321.488 183.48C321.488 177.809 316.89 173.212 311.219 173.212C305.548 173.212 300.951 177.809 300.951 183.48C300.951 189.151 305.548 193.748 311.219 193.748Z",
+    fill: "url(#paint23_radial_503_10076)"
+  })), _path48 || (_path48 = /*#__PURE__*/React.createElement("path", {
+    d: "M314.147 183.479C314.147 185.095 312.837 186.406 311.22 186.406C309.604 186.406 308.293 185.095 308.293 183.479C308.293 181.863 309.604 180.552 311.22 180.552C312.837 180.552 314.147 181.861 314.147 183.479Z",
+    fill: "#6EE8FC"
+  })), _path49 || (_path49 = /*#__PURE__*/React.createElement("path", {
+    d: "M330.253 182.531C335.924 182.531 340.521 177.933 340.521 172.262C340.521 166.591 335.924 161.994 330.253 161.994C324.582 161.994 319.984 166.591 319.984 172.262C319.984 177.933 324.582 182.531 330.253 182.531Z",
+    fill: "url(#paint24_radial_503_10076)"
+  })), _path50 || (_path50 = /*#__PURE__*/React.createElement("path", {
+    d: "M330.253 175.188C331.87 175.188 333.181 173.878 333.181 172.261C333.181 170.645 331.87 169.334 330.253 169.334C328.637 169.334 327.326 170.645 327.326 172.261C327.326 173.878 328.637 175.188 330.253 175.188Z",
+    fill: "#6EE8FC"
+  })), _path51 || (_path51 = /*#__PURE__*/React.createElement("path", {
+    d: "M349.292 171.482C354.963 171.482 359.56 166.884 359.56 161.214C359.56 155.543 354.963 150.945 349.292 150.945C343.621 150.945 339.023 155.543 339.023 161.214C339.023 166.884 343.621 171.482 349.292 171.482Z",
+    fill: "url(#paint25_radial_503_10076)"
+  })), _path52 || (_path52 = /*#__PURE__*/React.createElement("path", {
+    d: "M352.218 161.213C352.218 162.83 350.907 164.141 349.291 164.141C347.674 164.141 346.363 162.83 346.363 161.213C346.363 159.597 347.674 158.286 349.291 158.286C350.908 158.286 352.218 159.597 352.218 161.213Z",
+    fill: "#6EE8FC"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint0_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(189.022 222.451) rotate(30.0007) scale(91.8412 79.538)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0143,
+    stopColor: "#40DED8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0908,
+    stopColor: "#34AFB4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1719,
+    stopColor: "#2A8593"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2563,
+    stopColor: "#226278"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.345,
+    stopColor: "#1B4562"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4394,
+    stopColor: "#162F51"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.542,
+    stopColor: "#121F44"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6591,
+    stopColor: "#10163D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#0F133B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint1_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(310.518 340.592) rotate(30.0007) scale(91.8412 79.538)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#9980C1",
+    stopOpacity: 0
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#9980C1"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint2_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(86.4845 281.441) rotate(30.0007) scale(70.6145 61.1548)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#9980C1",
+    stopOpacity: 0
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#9980C1"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint3_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(190.022 224.784) scale(10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0225,
+    stopColor: "#3FD8D7"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0983,
+    stopColor: "#36A9BA"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1786,
+    stopColor: "#2E7FA0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2622,
+    stopColor: "#275C8B"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.35,
+    stopColor: "#223F79"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4433,
+    stopColor: "#1D296C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5449,
+    stopColor: "#1A1962"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6608,
+    stopColor: "#19105D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint4_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(86.4825 284.681) scale(10.2687 10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0225,
+    stopColor: "#3FD8D7"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0983,
+    stopColor: "#36A9BA"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1786,
+    stopColor: "#2E7FA0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2622,
+    stopColor: "#275C8B"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.35,
+    stopColor: "#223F79"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4433,
+    stopColor: "#1D296C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5449,
+    stopColor: "#1A1962"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6608,
+    stopColor: "#19105D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint5_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(311.219 340.389) scale(10.2687 10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0143,
+    stopColor: "#40DED8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0908,
+    stopColor: "#34AFB4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1719,
+    stopColor: "#2A8593"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2563,
+    stopColor: "#226278"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.345,
+    stopColor: "#1B4562"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4394,
+    stopColor: "#162F51"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.542,
+    stopColor: "#121F44"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6591,
+    stopColor: "#10163D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#0F133B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint6_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(330.252 329.172) scale(10.2687 10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0143,
+    stopColor: "#40DED8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0908,
+    stopColor: "#34AFB4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1719,
+    stopColor: "#2A8593"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2563,
+    stopColor: "#226278"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.345,
+    stopColor: "#1B4562"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4394,
+    stopColor: "#162F51"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.542,
+    stopColor: "#121F44"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6591,
+    stopColor: "#10163D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#0F133B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint7_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(349.292 318.125) scale(10.2687 10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0143,
+    stopColor: "#40DED8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0908,
+    stopColor: "#34AFB4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1719,
+    stopColor: "#2A8593"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2563,
+    stopColor: "#226278"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.345,
+    stopColor: "#1B4562"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4394,
+    stopColor: "#162F51"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.542,
+    stopColor: "#121F44"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6591,
+    stopColor: "#10163D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#0F133B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint8_linear_503_10076",
+    x1: 39.9586,
+    y1: 248.624,
+    x2: 295.3,
+    y2: 248.624,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1022,
+    stopColor: "#3CCACE"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.3445,
+    stopColor: "#2F87A5"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.564,
+    stopColor: "#255385"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.7534,
+    stopColor: "#1E2D6E"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.905,
+    stopColor: "#1A1660"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint9_linear_503_10076",
+    x1: 224.07,
+    y1: 248.618,
+    x2: 351.741,
+    y2: 248.618,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#2B237C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint10_linear_503_10076",
+    x1: 96.399,
+    y1: 220.416,
+    x2: 351.759,
+    y2: 220.416,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1022,
+    stopColor: "#3CCACE"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.3445,
+    stopColor: "#2F87A5"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.564,
+    stopColor: "#255385"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.7534,
+    stopColor: "#1E2D6E"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.905,
+    stopColor: "#1A1660"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint11_linear_503_10076",
+    x1: 96.4004,
+    y1: 220.42,
+    x2: 226.73,
+    y2: 220.42,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1022,
+    stopColor: "#3CCACE"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.3445,
+    stopColor: "#2F87A5"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.564,
+    stopColor: "#255385"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.7534,
+    stopColor: "#1E2D6E"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.905,
+    stopColor: "#1A1660"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint12_linear_503_10076",
+    x1: 131.131,
+    y1: 294.721,
+    x2: 344.867,
+    y2: 155.019,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1022,
+    stopColor: "#3CCACE"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.3445,
+    stopColor: "#2F87A5"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.564,
+    stopColor: "#255385"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.7534,
+    stopColor: "#1E2D6E"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.905,
+    stopColor: "#1A1660"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint13_linear_503_10076",
+    x1: 39.9586,
+    y1: 171.442,
+    x2: 295.3,
+    y2: 171.442,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1022,
+    stopColor: "#3CCACE"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.3445,
+    stopColor: "#2F87A5"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.564,
+    stopColor: "#255385"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.7534,
+    stopColor: "#1E2D6E"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.905,
+    stopColor: "#1A1660"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint14_linear_503_10076",
+    x1: 224.07,
+    y1: 171.436,
+    x2: 351.741,
+    y2: 171.436,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#2B237C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint15_linear_503_10076",
+    x1: 96.399,
+    y1: 143.234,
+    x2: 351.759,
+    y2: 143.234,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#9980C1"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1022,
+    stopColor: "#9980C1"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.3445,
+    stopColor: "#9980C1"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.564,
+    stopColor: "#9980C1"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.7534,
+    stopColor: "#6D5693"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.905,
+    stopColor: "#6D5693"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#6D5693"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint16_linear_503_10076",
+    x1: 96.4004,
+    y1: 143.238,
+    x2: 226.73,
+    y2: 143.238,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1022,
+    stopColor: "#3CCACE"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.3445,
+    stopColor: "#2F87A5"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.564,
+    stopColor: "#255385"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.7534,
+    stopColor: "#1E2D6E"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.905,
+    stopColor: "#1A1660"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint17_linear_503_10076",
+    x1: 131.131,
+    y1: 217.538,
+    x2: 344.867,
+    y2: 77.8354,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1022,
+    stopColor: "#3CCACE"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.3445,
+    stopColor: "#2F87A5"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.564,
+    stopColor: "#255385"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.7534,
+    stopColor: "#1E2D6E"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.905,
+    stopColor: "#1A1660"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#180D5B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint18_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(189.022 65.5418) rotate(30.0007) scale(91.8412 79.5381)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0.011476,
+    stopColor: "#9980C1",
+    stopOpacity: 0
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#9980C1"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint19_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(310.518 183.681) rotate(30.0008) scale(91.8413 79.5381)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#9980C1",
+    stopOpacity: 0
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#9980C1"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint20_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(86.4846 124.53) rotate(30.0007) scale(70.6144 61.1547)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#9980C1",
+    stopOpacity: 0
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#9980C1"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint21_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(190.022 67.8753) scale(10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0143,
+    stopColor: "#40DED8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0908,
+    stopColor: "#34AFB4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1719,
+    stopColor: "#2A8593"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2563,
+    stopColor: "#226278"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.345,
+    stopColor: "#1B4562"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4394,
+    stopColor: "#162F51"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.542,
+    stopColor: "#121F44"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6591,
+    stopColor: "#10163D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#0F133B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint22_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(86.4825 127.771) scale(10.2687 10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0143,
+    stopColor: "#40DED8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0908,
+    stopColor: "#34AFB4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1719,
+    stopColor: "#2A8593"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2563,
+    stopColor: "#226278"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.345,
+    stopColor: "#1B4562"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4394,
+    stopColor: "#162F51"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.542,
+    stopColor: "#121F44"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6591,
+    stopColor: "#10163D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#0F133B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint23_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(311.219 183.48) scale(10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0143,
+    stopColor: "#40DED8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0908,
+    stopColor: "#34AFB4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1719,
+    stopColor: "#2A8593"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2563,
+    stopColor: "#226278"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.345,
+    stopColor: "#1B4562"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4394,
+    stopColor: "#162F51"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.542,
+    stopColor: "#121F44"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6591,
+    stopColor: "#10163D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#0F133B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint24_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(330.252 172.262) scale(10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0143,
+    stopColor: "#40DED8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0908,
+    stopColor: "#34AFB4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1719,
+    stopColor: "#2A8593"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2563,
+    stopColor: "#226278"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.345,
+    stopColor: "#1B4562"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4394,
+    stopColor: "#162F51"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.542,
+    stopColor: "#121F44"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6591,
+    stopColor: "#10163D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#0F133B"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint25_radial_503_10076",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(349.292 161.214) scale(10.2687)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#42E8E0"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0143,
+    stopColor: "#40DED8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.0908,
+    stopColor: "#34AFB4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.1719,
+    stopColor: "#2A8593"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.2563,
+    stopColor: "#226278"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.345,
+    stopColor: "#1B4562"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.4394,
+    stopColor: "#162F51"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.542,
+    stopColor: "#121F44"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6591,
+    stopColor: "#10163D"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.8226,
+    stopColor: "#0F133B"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgFaQsAnimation);
+export default __webpack_public_path__ + "static/media/FAQs-animation.ba5fc9ea4b67d9788ec684a749375944.svg";
+export { ForwardRef as ReactComponent };

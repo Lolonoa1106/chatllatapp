@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply font-clash bg-dark-900 tracking-wider;
+}
+
+::selection {
+    @apply bg-green text-white;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Semibold.woff2') format('woff2'),
+        url('./assets/fonts/ClashGrotesk-Semibold.woff') format('woff'),
+        url('./assets/fonts/ClashGrotesk-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Regular.woff2') format('woff2'),
+        url('./assets/fonts/ClashGrotesk-Regular.woff') format('woff'),
+        url('./assets/fonts/ClashGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Bold.woff2') format('woff2'),
+        url('./assets/fonts/ClashGrotesk-Bold.woff') format('woff'),
+        url('./assets/fonts/ClashGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Extralight.woff2') format('woff2'),
+        url('./assets/fonts/ClashGrotesk-Extralight.woff') format('woff'),
+        url('./assets/fonts/ClashGrotesk-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Light.woff2') format('woff2'),
+        url('./assets/fonts/ClashGrotesk-Light.woff') format('woff'),
+        url('./assets/fonts/ClashGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Medium.woff2') format('woff2'),
+        url('./assets/fonts/ClashGrotesk-Medium.woff') format('woff'),
+        url('./assets/fonts/ClashGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.footer-bg {
+    background: radial-gradient(50.26% 234.38% at -7.08% -26.9%, rgba(153, 128, 193, 0.288) 0%, rgba(14, 18, 24, 0) 100%);
+    border-top: 1px solid rgba(125, 131, 140, 0.4);
+    border-radius: 42px 42px 0px 0px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+@keyframes bouncesm {
+
+    0%,
+    100% {
+        transform: translateY(-15px);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+.perspective {
+    perspective: 1000px;
+}
+
+/* .slick-center .your-slide-class {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease;
+  } */
+.slick-slider .slick-slide {
+    @apply transition-all duration-500;
+}
+
+.slick-slider .slick-slide:not(.slick-current) {
+    transform: scale(0.75);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.slick-slider .slick-slide.slick-active {
+    @apply origin-right translate-x-10 scale-75;
+}
+
+.slick-slider .slick-slide.slick-current+.slick-active {
+    @apply origin-left -translate-x-5;
+}
+
+.slick-slider .slick-slide.slick-current {
+    @apply translate-x-0 scale-100 relative z-10;
+}
+
+.custom-slider .slick-arrow.slick-next,
+.custom-slider .slick-arrow.slick-prev {
+    @apply w-10 h-10 top-auto bottom-0 bg-dark-900/50 rounded-full border-2 border-primary hover:bg-primary;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.custom-slider {
+    --navigation-gap: 28px;
+}
+
+.slick-arrow:before {
+    @apply content-[''] w-full h-full absolute top-0 left-0;
+}
+
+.slick-arrow.slick-next {
+    right: calc(50% - var(--navigation-gap));
+    transform: translateX(50%);
+}
+
+.slick-arrow.slick-next:before {
+    background: url('data:image/svg+xml,<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_479_9513" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="22" height="22"><rect width="22" height="22" transform="matrix(-1 0 0 1 22 0)" fill="%23D9D9D9"/></mask><g mask="url(%23mask0_479_9513)"><path d="M12.8797 16.1826L18.0625 11L12.8797 5.81738L11.9137 6.81151L15.4147 10.3125L3.94216 10.3125V11.6875L15.4147 11.6875L11.9137 15.1885L12.8797 16.1826Z" fill="white"/></g></svg>');
+    @apply bg-no-repeat bg-center;
+    background-size: 22px;
+}
+
+.slick-arrow.slick-prev:before {
+    background: url('data:image/svg+xml,<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_479_9525" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="22" height="22"><rect width="22" height="22" fill="%23D9D9D9"/></mask><g mask="url(%23mask0_479_9525)"><path d="M9.12033 16.1826L3.9375 11L9.12033 5.81738L10.0863 6.81151L6.58529 10.3125L18.0578 10.3125V11.6875L6.58529 11.6875L10.0863 15.1885L9.12033 16.1826Z" fill="white"/></g></svg>');
+    @apply bg-no-repeat bg-center;
+    background-size: 22px;
+}
+
+.slick-arrow.slick-prev {
+    left: calc(50% - var(--navigation-gap));
+    transform: translateX(-50%);
+}
+
+/* width */
+::-webkit-scrollbar {
+    @apply w-2 h-2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    @apply bg-dark-950;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply bg-green rounded-md;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-yellow;
+}
+
+.richtext ul {
+    @apply list-disc space-y-3 pl-4;
+}
+
+@layer utilities {
+    .text-stroke-gradient {
+        background: -webkit-linear-gradient(-86deg, #9980C1 5%, #9980C100 91%);
+        -webkit-background-clip: text;
+        -o-background-clip: text;
+        -ms-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-stroke: 1px transparent;
+        -o-text-stroke: 1px transparent;
+        -ms-text-stroke: 1px transparent;
+        -moz-text-stroke: 1px transparent;
+        color: #0e1218;
+    }
+}
+
+.scroll-hidden::-webkit-scrollbar {
+    @apply w-0 h-0;
+}
+
+ul.list-checkmark li {
+    @apply pl-8 relative;
+}
+
+ul.list-checkmark li:before {
+    @apply content-[''] block w-5 h-5 absolute top-0.5 left-0 bg-center bg-cover bg-no-repeat;
+    background: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_964_11854" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect width="20" height="20" fill="%23D9D9D9"/></mask><g mask="url(%23mask0_964_11854)"><path d="M9.99625 17.9163C8.90125 17.9163 7.87201 17.7086 6.90854 17.293C5.94507 16.8775 5.10701 16.3135 4.39438 15.6011C3.68174 14.8888 3.1175 14.0511 2.70167 13.088C2.28597 12.125 2.07812 11.096 2.07812 10.0011C2.07812 8.90613 2.28597 7.8769 2.70167 6.91342C3.11722 5.94995 3.68125 5.1119 4.39375 4.39926C5.10625 3.68662 5.9441 3.12238 6.90729 2.70655C7.87049 2.29085 8.89965 2.08301 9.99479 2.08301C10.8726 2.08301 11.7031 2.21495 12.4865 2.47884C13.2698 2.74273 13.9884 3.11079 14.6423 3.58301L13.7383 4.5078C13.1999 4.13697 12.6166 3.84849 11.9885 3.64238C11.3605 3.43613 10.6959 3.33301 9.99479 3.33301C8.14757 3.33301 6.57465 3.98231 5.27604 5.28093C3.97743 6.57954 3.32813 8.15245 3.32813 9.99968C3.32813 11.8469 3.97743 13.4198 5.27604 14.7184C6.57465 16.017 8.14757 16.6663 9.99479 16.6663C11.842 16.6663 13.4149 16.017 14.7135 14.7184C16.0122 13.4198 16.6615 11.8469 16.6615 9.99968C16.6615 9.7069 16.6422 9.41738 16.6038 9.13113C16.5653 8.84488 16.5076 8.56655 16.4306 8.29613L17.4402 7.27863C17.593 7.70697 17.7097 8.14766 17.7904 8.60072C17.8711 9.05363 17.9115 9.51995 17.9115 9.99968C17.9115 11.0948 17.7037 12.124 17.2881 13.0872C16.8726 14.0504 16.3086 14.8882 15.5963 15.6007C14.8839 16.3132 14.0462 16.8772 13.0831 17.2928C12.1201 17.7085 11.0911 17.9163 9.99625 17.9163ZM8.81208 13.5445L5.55896 10.2913L6.43708 9.41322L8.81208 11.7882L17.0333 3.55426L17.9115 4.43238L8.81208 13.5445Z" fill="%236E9985"/></g></svg>');
+}
+
+
+/*======================
+    404 page
+=======================*/
+
+
+.page_404 {
+    padding: 40px 0;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+    /* height: 400px; */
+    background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+}
+table {
+    @apply w-full text-left border-collapse border border-white/10 bg-[#24292F] rounded-2xl;
+}
+td, th {
+    @apply p-4 border border-white/10 text-white transition-all duration-500;
+}
+th {
+    @apply bg-dark-900/50 text-white font-medium first:rounded-tl-2xl last:rounded-tr-2xl whitespace-pre;
+}
+tr:last-child td {
+    @apply first:rounded-bl-2xl last:rounded-br-2xl;
+}
+tr:hover td{
+    @apply bg-dark-900/30;
+}
+.slick-h-full *{
+    @apply h-full;
+}
+.hero-slider .slick-slide{
+    transform: scale(1) !important;
+}

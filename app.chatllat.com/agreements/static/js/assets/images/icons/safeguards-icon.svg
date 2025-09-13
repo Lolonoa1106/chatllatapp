@@ -1,0 +1,48 @@
+var _path, _path2, _path3, _path4, _defs;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgSafeguardsIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 120,
+    height: 131,
+    viewBox: "0 0 120 131",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M59.9918 15C59.9918 15 48.7607 33.6279 22 34.7448C22 34.7448 22 45.0654 22 51.7957C22 99.8118 59.9918 105.42 59.9918 105.42C59.9918 105.42 97.9835 99.8118 97.9835 51.7957C97.9835 45.0654 97.9835 34.7448 97.9835 34.7448C71.2228 33.6279 59.9918 15 59.9918 15Z",
+    fill: "url(#paint0_linear_464_6610)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M69.7932 58.209H50.1893C47.8035 58.209 45.8691 60.1428 45.8691 62.5286V80.0961C45.8691 82.4819 47.8035 84.4157 50.1893 84.4157H69.7932C72.179 84.4157 74.1134 82.4819 74.1134 80.0961V62.5286C74.1134 60.1428 72.179 58.209 69.7932 58.209ZM58.1407 78.3264L53.026 73.2122L54.933 71.3046L57.785 74.1566L64.7543 64.2983L66.9566 65.8554L58.1407 78.3264Z",
+    fill: "white"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M53.8349 49.3303C53.8349 45.9349 56.5975 43.173 59.9929 43.173C63.3882 43.173 66.1508 45.9349 66.1508 49.3303V55.9481H68.8666V49.3303C68.8666 44.4298 64.8935 40.4573 59.9929 40.4573C55.0923 40.4573 51.1191 44.4298 51.1191 49.3303V55.9481H53.8349V49.3303Z",
+    fill: "white"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M59.9921 115C68.3744 115 75.1697 113.807 75.1697 112.336C75.1697 110.865 68.3744 109.672 59.9921 109.672C51.6097 109.672 44.8145 110.865 44.8145 112.336C44.8145 113.807 51.6097 115 59.9921 115Z",
+    fill: "white"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_464_6610",
+    x1: 25.0202,
+    y1: 33.6226,
+    x2: 98.1538,
+    y2: 82.6923,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#9980C1"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#6E9985"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgSafeguardsIcon);
+export default __webpack_public_path__ + "static/media/safeguards-icon.e19ff2513c55705318de838a9266f624.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,27 @@
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgTelegram(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 42,
+    height: 36,
+    viewBox: "0 0 42 36",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M1.95563 15.0493L39.2028 0.774682C40.9316 0.153908 42.4414 1.19387 41.8813 3.79216L41.8845 3.78895L35.5425 33.4869C35.0725 35.5924 33.8137 36.1044 32.0528 35.1124L22.3949 28.0375L17.7366 32.4982C17.2215 33.0101 16.7869 33.4421 15.7889 33.4421L16.4746 23.6729L34.3739 7.6C35.1529 6.91842 34.2 6.53444 33.1731 7.21281L11.0533 21.0554L1.51781 18.0988C-0.552194 17.446 -0.597263 16.0412 1.95563 15.0493Z",
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgTelegram);
+export default __webpack_public_path__ + "static/media/telegram.71e878307b9059a3535b8b004e4abacd.svg";
+export { ForwardRef as ReactComponent };

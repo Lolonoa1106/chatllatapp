@@ -1,0 +1,50 @@
+var _g;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgPostAJob(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: 512,
+    height: 512,
+    x: 0,
+    y: 0,
+    viewBox: "0 0 1707 1707",
+    style: {
+      enableBackground: "new 0 0 512 512"
+    },
+    xmlSpace: "preserve",
+    fillRule: "evenodd",
+    className: "",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("path", {
+    fill: "#000002",
+    d: "M1170 1371H147c-81 0-147-66-147-147V201C0 121 66 55 147 55h1023c81 0 147 66 147 146v908c0 13-10 23-23 23-12 0-23-10-23-23V201c0-55-45-101-101-101H147c-56 0-101 46-101 101v1023c0 56 45 102 101 102h1023c5 0 10-1 15-1 13-2 24 6 26 19 2 12-6 24-18 26-8 1-15 1-23 1z",
+    opacity: 1,
+    "data-original": "#000002",
+    className: ""
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#000002",
+    d: "M1294 320H23c-13 0-23-10-23-22 0-13 10-23 23-23h1271c13 0 23 10 23 23 0 12-10 22-23 22zM262 210h-88c-12 0-22-10-22-22 0-13 10-23 22-23h88c13 0 23 10 23 23 0 12-10 22-23 22zM439 210h-87c-13 0-23-10-23-22 0-13 10-23 23-23h87c13 0 23 10 23 23 0 12-10 22-23 22zM617 210h-88c-12 0-22-10-22-22 0-13 10-23 22-23h88c13 0 23 10 23 23 0 12-10 22-23 22zM891 636h-78c-13 0-23-10-23-22V457c0-12 10-23 23-23h78c56 0 101 46 101 101 0 56-45 101-101 101zm-56-45h56c31 0 56-25 56-56 0-30-25-55-56-55h-56z",
+    opacity: 1,
+    "data-original": "#000002",
+    className: ""
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#000002",
+    d: "M921 793H813c-13 0-23-10-23-23V614c0-13 10-23 23-23h108c56 0 101 45 101 101s-45 101-101 101zm-86-45h86c31 0 56-25 56-56s-25-56-56-56h-86zM607 793h-13c-62 0-112-50-112-111V546c0-62 50-112 112-112h13c61 0 111 50 111 112v136c0 61-50 111-111 111zm-13-313c-37 0-66 29-66 66v136c0 36 29 66 66 66h13c36 0 66-30 66-66V546c0-37-30-66-66-66zM294 793c-56 0-101-46-101-101 0-13 10-23 23-23s23 10 23 23c0 30 25 55 55 55 31 0 55-25 55-55V458c0-13 10-23 23-23s23 10 23 23v234c0 55-45 101-101 101zM1011 933H221c-13 0-23-10-23-23s10-23 23-23h790c12 0 22 10 22 23s-10 23-22 23zM1011 1072H221c-13 0-23-10-23-22 0-13 10-23 23-23h790c12 0 22 10 22 23 0 12-10 22-22 22zM1011 1212H221c-13 0-23-10-23-23 0-12 10-23 23-23h790c12 0 22 11 22 23 0 13-10 23-22 23zM1534 1652c-6 0-12-2-16-7l-227-226-59 59c-6 6-14 8-22 6-8-3-14-9-16-17l-92-393c-2-7 0-15 6-21 5-5 13-8 21-6l393 92c8 2 14 8 16 16s0 17-6 23l-59 59 227 226c4 4 6 10 6 16s-2 12-6 16l-150 150c-5 5-11 7-16 7zm-243-288c6 0 12 2 16 7l227 226 118-118-227-226c-9-9-9-24 0-32l46-47-317-74 75 317 46-46c4-5 10-7 16-7z",
+    opacity: 1,
+    "data-original": "#000002",
+    className: ""
+  }))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgPostAJob);
+export default __webpack_public_path__ + "static/media/post-a-job.3847bc6d517753bf008e73b711b69742.svg";
+export { ForwardRef as ReactComponent };
